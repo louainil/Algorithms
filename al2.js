@@ -1,3 +1,12 @@
+if (typeof window !== 'undefined') {
+    window.addEventListener('DOMContentLoaded', () => {
+        alert("don't look!");
+        alert("stop");
+    });
+} else {
+    console.log("don't look!");
+    console.log("stop");
+}
 // Node.js script to count characters, words and vowels
 
 const readline = require('readline');
